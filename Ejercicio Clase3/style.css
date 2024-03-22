@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor {
+    margin: 15%;
+    background-color: aliceblue;
+    text-align: start;
+    border-radius: 10px;
+    padding: 5%;
+
+}
+body {
+    background-color: #2d4059;
+}
+
+h1,
+h2,
+p,
+li{
+    color: #2d4059
+}
+
+h1{
+    font-size: 40px;
+    
+}
+
+h2,
+p,
+ul{
+    padding-bottom: 25px;
+}
+
+p strong{
+    color: aliceblue;
+}
+
+p.destacado{
+    background-color: #ea5455;
+    border-radius: 5px;
+}
+
+li{
+    text-decoration:underline;
+    
+}
+
