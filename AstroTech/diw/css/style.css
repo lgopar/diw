@@ -1,0 +1,87 @@
+
+@font-face {
+
+    src: url('/fonts/HoltwoodOneSC-Regular.ttf') format('ttf');
+    font-family: "Holtwood One SC",  ;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:#E5E5E5 ;
+}
+main{
+    padding-bottom: 40px;
+}
+
+h1{
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff ;
+    background-color:  #82b0e5;
+}
+.intro{
+    margin: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-family: "Aleo", serif;
+    font-size: 15px ;
+}
+.contenedor{
+     margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.citas{
+    color: #497bb4;
+    text-decoration: none;
+}
+
+blockquote p{
+    font-style: italic;
+    color: #497bb4;
+    padding-left: 15px;
+    border-left: 4px solid ;
+    border-color: #82b0e5;
+
+
+}
+article p{
+    padding-top: 10;
+    padding-bottom: 10px;
+}
+blockquote{
+
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* TEXTOS Y LISTAS */
+p,
+li {
+    font-family: Aleo;
+    font-weight: 250;
+    font-size:12px;
+}
+
+h3{
+    padding: 10px;
+    letter-spacing: 12px;
+    font-family: "Aleo", serif;
+    color: #497bb4;
+    font-style: normal;
+}
+
+
+

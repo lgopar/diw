@@ -1,0 +1,167 @@
+:root{
+  --naranja: #ed9275;
+  --naranja-oscuro:#935a49;
+  --fondo-oscuro:#030301;
+  --fondo_medio:#0b1017;
+  --fondo_claro:#131c29; 
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/SpaceGrotesk-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans";
+  src: url("../fonts/NotoSans-Light.ttf");
+  font-weight: normal;
+}
+body{
+  font-family: "Noto Sans", sans-serif;
+  color:white;
+}
+
+h1,h2,h3{
+  font-family: "Space Grotesk", sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+label{
+  font-size: 12px;
+}
+
+.btn.btn-danger{
+  background-color: var(--naranja);
+  border-radius: 0;
+  border-color: var(--naranja);
+}
+.btn.btn-outline-danger{
+  color: var(--naranja);
+  border-color: var(--naranja);
+  border-radius: 0;
+  color: white;
+}
+btn.btn-outline-danger:hover{
+  background-color: var(--naranja-oscuro);
+  color: white;
+   
+  }
+  .btn.btn-danger:hover{
+    background-color: var(--naranja-oscuro);
+    border-color: var(--naranja-oscuro);
+    border-radius: 0;
+    color: white;
+  }
+
+
+header{
+  background-color: black;
+  padding: 20px 0;
+  
+}
+nav ul li a:hover{
+  border-left: 1px solid var(--naranja);
+  padding: 5px;
+  color: var(--naranja);
+  
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  border-left: 1px solid var(transparent);
+}
+.logo{
+  height: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#banner{
+  background-image: url("../img/computadora.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 75vh;
+  display: flex;
+  align-items: end;
+  color: white; 
+  padding: 20px 0;  
+}
+
+
+
+
+
+#productos article{
+border-bottom: 10px solid transparent;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 70px 0; 
+}
+#productos article img{
+  height: 450px;
+  
+}
+ 
+#productos article:hover{
+  border-color: var(--naranja);
+  color: var(--naranja);
+}
+#productos article:hover h3{
+  border-color: var(--naranja);
+}
+#productos article:nth-child(1){
+background-color: var(--fondo-oscuro);
+}
+#productos article:nth-child(2){
+  background-color: var(--fondo_medio);
+  
+}
+#productos article:nth-child(3){
+  background-color: var(--fondo_claro);
+  
+}
+#productos {
+  color: white;
+}
+
+#innovacion{
+  background-color: var(--fondo-oscuro);
+  color: white;
+}
+#innovacion h3{
+  color: var(--naranja);
+ }
+
+
+
+
+ #beneficios{
+  background-color: var(--fondo_claro);
+  color: white;
+  padding: 20px;
+  padding: 70px 0;
+   
+ }
+
+input{
+  border: 1px solid var(--naranja);
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+}
+input[type="submit"]{
+  background-color: var(--naranja);
+  color: white;
+  border: 1px solid var(--naranja);
+}
+
+footer{
+  background-color: var(--fondo_medio);
+  padding: 20px 0;
+}
+
